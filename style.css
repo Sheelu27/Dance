@@ -1,0 +1,196 @@
+   .class1 {width:100%;height:50%;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50px;
+    color:white;Text-align:center; font-weight: bolder;
+    }
+
+    
+.class10 {width:100%;height:100%;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50px;
+    color:white;Text-align:center; font-weight: bolder;
+    }
+   
+   #id1{width:100%;
+   height:100%;
+   border-radius:20px;
+
+   }
+   .new{
+      font-size:29px;
+   }
+
+  .index{
+    float:left;
+    width:33%;
+    height:100%;
+    border-radius:4px;
+   }
+  .inde{
+    width:33%;
+    height:15%;
+    font-size:30px;
+    float:left;
+  }
+
+  #ind{
+    width:100%; 
+    height:50% ;
+    font-size:30px;
+    font-weight: bold;margin-top:40px;
+  }
+
+  #linediv{
+    width:50%;
+    height:2px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    margin-left:25%;
+  }
+
+  #line{
+    width:100%; height:20%;
+  }
+
+  #lin{
+    height:40%;
+  }
+
+
+  #cont {
+    display: grid;
+    grid-gap:25px;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color:rgb(76, 16, 82);
+    padding: 20px;
+    height:100%;
+}
+
+#cont div {
+    background: #cee9e3;
+    border-radius:4px;
+   
+    
+}
+img{
+    width:100%;
+    height:100%;
+}
+#item2{
+    grid-area:1/2/3/span2;
+    
+}
+
+
+.class8{width:90%;height:100%;margin:auto;padding:20px; background-color:rgb(60, 18, 61);
+  
+  
+}
+.class9{width:90%;height:14%;margin:auto;border-radius:5px;font-size:16px;font-family:Georgia;
+    margin:10px;padding:5px;
+    
+}
+p{margin-left:10px;
+
+}
+
+.class8 > .class9:nth-child(2n) {
+        background-color:rgb(185, 228, 215);
+        color:#4b243d;
+        
+    }
+
+.class8>.class9:nth-child(2n+1){ 
+    background-color:	#e0b0b0;
+    color:#940e29;
+}
+#form1{
+height:5%;background-color: rgb(223, 135, 103);
+   
+    
+}
+h4{Text-align:center;
+margin:auto;color:black;
+
+}
+
+
+   
+   #history{
+       width:45%;
+       height:92%;
+       background-color:rgb(2, 73, 61);
+       
+
+   }
+   #hist{width:50%;
+   height:100%;
+   
+   float:right;
+
+   }
+  
+   
+  img ~ p{
+      font-size:25px;
+  }
+  
+  #history img{
+      width:60%;
+       height:25%;
+
+  }
+
+  P+ h5{
+      font-size:20px;
+      margin-top:2px;
+      color:black;
+      
+  }
+  .flex-box {
+      display: flex;
+      
+      margin: 10px;
+      height:47%;
+
+  }
+
+  .flex-box div {
+  margin: 10px;
+  padding:10px;
+  
+  flex-basis:50%;
+  
+  }
+  #box2 div{
+  flex-direction:row;
+  width:60%;
+  height:70%
+  
+  }
+
+  #box1 {
+  flex-direction: row;
+  }
+  #box1  p{
+      font-size:30px;
+      
+  }
+  #box2 p{
+      font-size:30px;
+      
+  }
+  #nes{
+      width:70%;height:100%
+
+  }
+  #ne{
+      background-color:rgb(2, 73, 61);
+  }
+
+  @media only screen and (max-width:952px) {
+  #box1 {
+  flex-direction:column;
+  }
+
+  @media only screen and (max-width:952px) {
+  #box1 {
+  flex-direction:column;
+  }
