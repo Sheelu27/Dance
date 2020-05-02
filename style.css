@@ -1,9 +1,9 @@
-   .class1 {width:100%;height:50%;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50px;
+   .class1 {width:100%;height:50%;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50vm;
     color:white;Text-align:center; font-weight: bolder;
     }
 
     
-.class10 {width:100%;height:100%;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50px;
+.class10 {width:100%;height:auto;background-color:rgb(60, 18, 61);font-family: 'Dancing Script', cursive;font-size:50vm;
     color:white;Text-align:center; font-weight: bolder;
     }
    
@@ -13,7 +13,7 @@
 
    }
    .new{
-      font-size:29px;
+      font-size:29vm;
    }
 
   .index{
@@ -24,16 +24,17 @@
    }
   .inde{
     width:33%;
-    height:15%;
-    font-size:30px;
+    height:auto;
+    font-size:30vm;
     float:left;
   }
 
   #ind{
     width:100%; 
-    height:50% ;
-    font-size:30px;
-    font-weight: bold;margin-top:40px;
+    height:auto ;
+    font-size:30vm;
+    font-weight: bold;
+    margin-top:40px;
   }
 
   #linediv{
@@ -49,13 +50,13 @@
   }
 
   #lin{
-    height:40%;
+    height:20%;
   }
 
 
   #cont {
     display: grid;
-    grid-gap:25px;
+    grid-gap:2px;
     grid-template-columns:50% 50%;
     grid-template-rows: 50% 50%;
     background-color:rgb(76, 16, 82);
@@ -65,11 +66,9 @@
 
 #cont div {
     background: #cee9e3;
-    border-radius:4px;
-   
-    
+    border-radius:4px; 
 }
-img{
+#us-img{
     width:100%;
     height:100%;
 }
@@ -79,16 +78,16 @@ img{
 }
 
 
-.class8{width:90%;height:100%;margin:auto;padding:20px; background-color:rgb(60, 18, 61);
+.class8{width:90%;height:auto;margin:auto;padding:20px; background-color:rgb(60, 18, 61);
   
   
 }
-.class9{width:90%;height:14%;margin:auto;border-radius:5px;font-size:16px;font-family:Georgia;
+.class9{width:90%;margin:auto;border-radius:5px;font-size:16vm;font-family:Georgia;
     margin:10px;padding:5px;
     
 }
 p{margin-left:10px;
-
+    font-size:16vm;
 }
 
 .class8 > .class9:nth-child(2n) {
@@ -102,7 +101,7 @@ p{margin-left:10px;
     color:#940e29;
 }
 #form1{
-height:5%;background-color: rgb(223, 135, 103);
+height:auto;background-color: rgb(223, 135, 103);
    
     
 }
@@ -114,14 +113,14 @@ margin:auto;color:black;
 
    
    #history{
-       width:45%;
-       height:92%;
+       width:50%;
+       height:auto;
        background-color:rgb(2, 73, 61);
        
 
    }
    #hist{width:50%;
-   height:100%;
+   height:auto;
    
    float:right;
 
@@ -129,17 +128,16 @@ margin:auto;color:black;
   
    
   img ~ p{
-      font-size:25px;
+      font-size:25vm;
   }
   
   #history img{
-      width:60%;
-       height:25%;
-
+    width:100%;
+    height:auto;
   }
 
-  P+ h5{
-      font-size:20px;
+  p + h5{
+      font-size:20vm;
       margin-top:2px;
       color:black;
       
@@ -170,27 +168,26 @@ margin:auto;color:black;
   flex-direction: row;
   }
   #box1  p{
-      font-size:30px;
+      font-size:30vm;
       
   }
   #box2 p{
-      font-size:30px;
+      font-size:30vm;
       
   }
   #nes{
-      width:70%;height:100%
+      width:100%;height:100%;
 
   }
-  #ne{
-      background-color:rgb(2, 73, 61);
-  }
 
-  @media only screen and (max-width:952px) {
+  @media only screen and (max-width:500px) {
   #box1 {
   flex-direction:column;
   }
+}
 
-  @media only screen and (max-width:952px) {
-  #box1 {
+  @media only screen and (max-width:500px) {
+  #box2 {
   flex-direction:column;
   }
+}
